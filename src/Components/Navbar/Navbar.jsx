@@ -24,7 +24,6 @@ function Navbar () {
             <div className="mb-16"> 
                 <NavItem image={exit} path="/" text="Logout" flex="0 0 auto"/>
             </div>
-
         </div>
     )
 }
