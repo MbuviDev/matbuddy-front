@@ -1,4 +1,4 @@
-export  default Form = () => {
+export const Form = () => {
 
 
     const handleSubmit = (event) => {
