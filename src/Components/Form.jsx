@@ -1,4 +1,4 @@
-export const Form = () => {
+export  default Form = () => {
 
 
     const handleSubmit = (event) => {
@@ -6,8 +6,9 @@ export const Form = () => {
     }
 
     return (
-      <div className=" justify-center bg-white rounded-lg p-8 sm:w-96 ">
-        <form onSubmit={handleSubmit} className="grid bg-white-300 rounded-lg">
+      <div className="bg-white rounded-lg p-8 sm:w-96 ">
+        <form onSubmit={handleSubmit} className="grid">
+         <h1 className="text-4xl font-serif">FORM</h1>
             <label>
                Sender Name 
                <input 
