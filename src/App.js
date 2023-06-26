@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+
 import { FormComponent } from './Components/FormComponent';
 import { FormInput } from './Components/FormInput';
 
@@ -24,10 +24,7 @@ function App() {
   }
 
   return (
-   <div className='relative flex'>
-      <div className='w-2/10 sticky top-0 bg-blue-700'>
-       <Navbar />
-      </div>
+  <div>
 
      <FormComponent
       formData={formData}
